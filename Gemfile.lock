@@ -180,6 +180,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer
   activerecord-tableless (~> 1.0)
   bootstrap-sass
   coffee-rails (~> 4.0.0)
