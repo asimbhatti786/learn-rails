@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/asim/Projects/learn-rails/app/views/contacts/new.html.erb</file>
+            <file>file:/home/asim/Projects/learn-rails/config/database.yml</file>
+            <file>file:/home/asim/Projects/learn-rails/app/controllers/contacts_controller.rb</file>
+            <file>file:/home/asim/Projects/learn-rails/app/views/layouts/application.html.erb</file>
+            <file>file:/home/asim/Projects/learn-rails/app/views/pages/contact.html.erb</file>
+            <file>file:/home/asim/Projects/learn-rails/app/views/layouts/_navigation.html.erb</file>
+            <file>file:/home/asim/Projects/learn-rails/config/routes.rb</file>
+            <file>file:/home/asim/Projects/learn-rails/Gemfile</file>
+            <file>file:/home/asim/Projects/learn-rails/app/models/contact.rb</file>
+            <file>file:/home/asim/Projects/learn-rails/db/migrate/20141027153921_create_contacts.rb</file>
+        </group>
+    </open-files>
+</project-private>

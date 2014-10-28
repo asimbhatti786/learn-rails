@@ -1,0 +1,26 @@
+<% content_for :title do %>Contact<% end %>
+<h3>Contact</h3>
+
+<%= form_for @contact do|f|%>
+  <div class="row">
+      <div class="col-md-4">
+          <label>Name</label>
+      </div>
+      <div class="col-lg-8">
+          <%=  f.text_field :name, autofocus: true,:class=>"form-control"%>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-4">
+          <label>Email</label>
+      </div>
+      <div class="col-lg-8">
+          <%=  f.text_field :email,:class=>"form-control"%>
+      </div>
+  </div>
+
+  <div class="form-group">
+  <%#=  f.submit, 'Submit', class: 'btn-primary' %>
+      <button type="submit" class="btn btn-danger">Submit</button>
+  </div>
+<%  end %>

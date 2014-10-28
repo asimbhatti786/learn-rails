@@ -1,0 +1,5 @@
+development:
+  adapter: postgresql
+  database: learn_development
+  username: postgres
+  password: postgres
