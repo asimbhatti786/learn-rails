@@ -5,25 +5,37 @@ class ContactsController < ApplicationController
   #flash[:notice] = "Received request from #{params}[:contact][:name]"
   
   #redirect_to root_path
-  def new                    #method is created named 'new'
-    @contact = Contact.new     #create a instance variable
-  end
-  
-  def create
-    
-    @contact = Contact.new(secure_params)
-    if @contact.valid?
-      # TODO save data
-      # TODO send message
-      flash[:notice] = "Message sent from #{@contact.name}."
-      redirect_to root_path
-    else
-      render :new
-    end
-  end
-  private
-  def secure_params
-    params.require(:contact).permit(:name, :email, :content)
-  end
+  def new
+@contact = Contact.new
+end
 
+def create
+
+  @contact = Contact.new(secure_params)
+
+  if @contact.valid?
+
+
+    #@contact.update_spreadsheet
+
+    UserMailer.contact_email(@contact).deliver
+
+    flash[:notice] = "Message sent from #{@contact.name}."
+
+    redirect_to root_path
+
+  else
+
+    render :new
+
+  end
+end
+
+private
+
+def secure_params
+
+
+  params.require(:contact).permit(:name, :email)
+end
 end

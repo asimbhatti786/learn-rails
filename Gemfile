@@ -32,9 +32,9 @@ gem 'devise'
 gem 'high_voltage', '~> 2.2.1'
 gem 'bootstrap-sass'
 gem 'simple_form', '>= 3.0.0.rc'
-gem "activerecord-tableless", "~> 1.0"
-gem 'google_drive'
-gem 'figaro'
+#gem "activerecord-tableless", "~> 1.0"
+#gem 'google_drive'
+#gem 'figaro'
 gem 'actionmailer'
 
 
