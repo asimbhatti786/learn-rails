@@ -38,6 +38,7 @@ gem 'simple_form', '>= 3.0.0.rc'
 gem 'actionmailer'
 
 
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

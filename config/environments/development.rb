@@ -44,5 +44,4 @@ Rails.application.configure do
     password: "asim_ali"
   }
   config.action_mailer.perform_deliveries = true
-
 end
