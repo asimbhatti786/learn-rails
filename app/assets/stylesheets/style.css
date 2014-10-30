@@ -139,7 +139,7 @@ i, em, .italic {
 }
 .align-left {
     float: left;
-    margin-left: 0 25px 0 0px!important;
+    margin-left: 0 25px 0 0px !important;
 }
 .align-right {
     float: right;
@@ -6446,6 +6446,10 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
         line-height: 28px;
         font-size: 25px;
 }
-.top10{margin-top: 5%;}.alert-@@@ {
+.top10
+{
+    margin-top: 5%;
+}
+.alert{
 
 }
