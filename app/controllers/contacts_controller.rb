@@ -29,6 +29,7 @@ class ContactsController < ApplicationController
 
     end
   end
+  
 
   private
 
@@ -40,9 +41,6 @@ class ContactsController < ApplicationController
   
   
   
-  private
-  def secure_params
-    params.require(:contact).permit(:name, :email, :content)
-  end
+  
 
 end
