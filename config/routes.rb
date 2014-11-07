@@ -1,18 +1,21 @@
 #Rails.application.routes.draw do
- 
-LearnRails::Application.routes.draw do
   
-#post 'contact', to: 'contacts#process_form'
-resources :contacts
+  
+  
+LearnRails::Application.routes.draw do
+  devise_for :users
+  #devise_for :users
+  #devise_for :users  
+  resources :contacts
 
 
-root :to => 'visitor#new'
+  root :to => 'visitor#new'
 
 
 
 
 
-#root to: 'visitors#new'
+  #root to: 'visitors#new'
 
 
  

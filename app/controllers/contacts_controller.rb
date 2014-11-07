@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+  before_filter :authenticate_user!
   #def process_form
   #Rails.logger.debug "DEBUG: params are #{params}"
   #flash[:notice] = "Received request from #{params}[:contact][:name]"
@@ -38,6 +39,7 @@ class ContactsController < ApplicationController
 
     params.require(:contact).permit(:name, :email)
   end
+  
   
   
   

@@ -1,6 +1,17 @@
-<ul class="nav">
-    <li><%= link_to 'Home', root_path %></li>
-    <li><%= link_to 'About', page_path('about') %></li>
-    <li><%= link_to 'Contact', new_contact_path %></li>
-    
-</ul>
+<h2>OlaOlaOla </h2>
+<%if user_signed_in?%>
+  <%= link_to "Sign out", destroy_user_session_path, method: :delete%>
+
+<%else%>
+  <%= link_to "Sign in", user_session_path%>
+  <%= link_to "Sign up", new_user_registration_path%>
+<%end%>
+<%if user_signed_in?%>
+  <ul class="nav">
+      <li><%= link_to 'Home', root_path %></li>
+      <li><%= link_to 'About', page_path('about') %></li>
+      <li><%= link_to 'Contact', new_contact_path %></li>
+      <li><%= link_to 'Edit', page_path('edit') %></li>
+
+  </ul>
+<%end%>
