@@ -11,4 +11,7 @@ class ApplicationController < ActionController::Base
         u.permit(:email, :password, :password_confirmation,:profile_attributes=>[:first_name,:last_name])
       }
     end
+    def puts_only
+      dddddddd
+    end
   end
