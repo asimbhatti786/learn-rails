@@ -36,6 +36,7 @@ gem 'simple_form', '>= 3.0.0.rc'
 #gem 'google_drive'
 #gem 'figaro'
 gem 'actionmailer'
+gem "paperclip", "~> 4.2"
 
 
 

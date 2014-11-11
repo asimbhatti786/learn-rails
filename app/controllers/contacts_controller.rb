@@ -18,6 +18,7 @@ class ContactsController < ApplicationController
 
   def create
     @contact = Contact.new(asim_params)
+    
     if @contact.save
 
 

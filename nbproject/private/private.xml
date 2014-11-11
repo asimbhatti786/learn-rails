@@ -4,21 +4,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/asim/Projects/learn-rails/app/views/contacts/new.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/models/profile.rb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/layouts/application.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/controllers/application_controller.rb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/pages/contact.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/devise/registrations/new.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/models/contact.rb</file>
-            <file>file:/home/asim/Projects/learn-rails/db/migrate/20141031100238_create_profiles.rb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/devise/registrations/edit.html.erb</file>
+            <file>file:/home/asim/Projects/learn-rails/app/models/owner.rb</file>
             <file>file:/home/asim/Projects/learn-rails/app/controllers/contacts_controller.rb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/controllers/devise/registrations_controller.rb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/users/registrations/new.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/layouts/_flash_message.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/app/views/layouts/_navigation.html.erb</file>
-            <file>file:/home/asim/Projects/learn-rails/config/routes.rb</file>
+            <file>file:/home/asim/Projects/learn-rails/app/controllers/visitor_controller.rb</file>
+            <file>file:/home/asim/Projects/learn-rails/app/models/contact.rb</file>
         </group>
     </open-files>
 </project-private>

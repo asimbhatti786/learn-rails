@@ -1,0 +1,5 @@
+<%@contacts.each do |contact|%>
+  <h3><%= link_to "Edit #{contact.name}", edit_contact_path(contact) %></h3>
+ 
+  <h3><%= link_to 'Destroy', contact_path(contact),method: :delete%></h3>
+<%end%>
