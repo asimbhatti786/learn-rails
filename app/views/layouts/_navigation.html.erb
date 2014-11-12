@@ -12,8 +12,11 @@
       <li><%= link_to 'About', page_path('about') %></li>
       <li><%= link_to 'Contact', new_contact_path %></li>
       <li><%= link_to 'All contacts', contacts_path %></li>
-       <li><%#= link_to 'deletecontacts',delete_contact_path %></li>
+       <li><%= link_to 'Add Friends', new_friend_path %></li>
+       <li><%= link_to 'See user Friends', friends_path %></li>
+       <li><%#= link_to 'See all friends' %></li>
        
-
+      
+     
   </ul>
 <%end%>

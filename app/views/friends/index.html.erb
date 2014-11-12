@@ -1,0 +1,10 @@
+<%@friends.each do |friend|%>
+<h3><%#= link_to " #{friend.first_name}""#{friend.last_name}""#{friend.phone}", friends_path(friend) %></h3>
+
+<%= link_to "Show friend detail",friend_path(friend) %>
+  <% #link_to friend_path(id: current_user.id) %>
+  <h3><%= friend.first_name %></h3>
+  <h3><%= friend.last_name %></h3>
+  <h3><%= friend.phone %></h3>
+  
+<%end%>

@@ -1,0 +1,13 @@
+<%#@friend = Friend.find(params[:id])%>
+<h3><%#= link_to " #{friend.first_name}""#{friend.last_name}""#{friend.phone}", friends_path(friend) %></h3>
+<%#= link_to "Show friend detail",friend_path(friend) %>
+  <% #link_to friend_path(id: current_user.id) %>
+
+
+<%#for displaying the values we call the
+instance variable which we define in "show method" and first_name is db field names%>
+<h3><%= @friend.first_name %></h3>
+  <h3><%= @friend.last_name %></h3>
+  <h3><%= @friend.phone %></h3>
+  
+  
